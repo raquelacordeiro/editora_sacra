@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Editora Sacra</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header class="topbar"><a class="brand" th:href="@{/}">EDITORA <span>SACRA</span></a><nav><a th:href="@{/}">Início</a><a th:href="@{/livros}">Catálogo de livros</a></nav></header>
+<main class="hero">
+    <section class="hero-content">
+        <p class="eyebrow">FÉ • CONHECIMENTO • TRADIÇÃO</p>
+        <h1>Escrituras, tradição <span>e vida de oração.</span></h1>
+        <p class="lead">Encontre livros que fortalecem a fé, aprofundam o conhecimento e acompanham sua caminhada espiritual.</p>
+        <div class="actions"><a class="button primary" th:href="@{/livros}">Explorar livros</a><a class="button secondary" th:href="@{/livros/novo}">Cadastrar livro</a></div>
+    </section>
+    <section class="hero-art" aria-label="Destaque da Editora Sacra"><div class="book book-back"></div><div class="book book-front"><span class="book-mark">✦</span><small>EDITORA</small><strong>SACRA</strong><i>Palavra e tradição</i></div><span class="sparkle sparkle-one">✦</span><span class="sparkle sparkle-two">✧</span></section>
+</main>
+<footer class="footer">Editora Sacra · Literatura para a vida de fé</footer>
+</body>
+</html>
